@@ -74,6 +74,7 @@ position = Vector2( 825, 130 )
 position = Vector2( 1250, 100 )
 
 [node name="Coin4" parent="Coins" instance=ExtResource( 2 )]
+visible = false
 position = Vector2( 1500, 250 )
 
 [node name="Coin5" parent="Coins" instance=ExtResource( 2 )]
@@ -183,6 +184,7 @@ margin_top = 400.0
 margin_right = 612.0
 margin_bottom = 440.0
 text = "Quit Game"
+
 [connection signal="pressed" from="UI/Menu/Save" to="UI/Menu" method="_on_Save_pressed"]
 [connection signal="pressed" from="UI/Menu/Load" to="UI/Menu" method="_on_Load_pressed"]
 [connection signal="pressed" from="UI/Menu/Quit" to="UI/Menu" method="_on_Quit_pressed"]
